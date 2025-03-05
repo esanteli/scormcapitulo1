@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns01001000111" textdirection="ltr" textengine="DirectWrite" device="true" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns01001000111" font="Lato" controllayout="npnxnanbsnfns01001000111" colorscheme="pxabnsnfns01001000111" string_table="pxabnsnfns01001000111" />
+    <layout name="pxabnsnfns01001000111" font="Lato" controllayout="pxabnsnfns01001000111" colorscheme="pxabnsnfns01001000111" string_table="pxabnsnfns01001000111" />
+    <layout name="npxnabnsnfns01001000111" font="Lato" controllayout="npxnabnsnfns01001000111" colorscheme="pxabnsnfns01001000111" string_table="pxabnsnfns01001000111" />
+    <layout name="npnxnanbnsnfns01001000111" font="Lato" controllayout="npnxnanbnsnfns01001000111" colorscheme="pxabnsnfns01001000111" string_table="pxabnsnfns01001000111" />
+    <layout name="pxabnsnfns01001000110" font="Lato" controllayout="pxabnsnfns01001000110" colorscheme="pxabnsnfns01001000111" string_table="pxabnsnfns01001000111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Inducción BHP final capitulo 1 html" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" />
+              <option name="html5_logo_url" value="mobile/6DoSwaO8eL8.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" value="banner portada.png" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="true" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false" />
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Lato" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns01001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns01001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns01001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001000110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns01001000111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns01001000111">
+      <string id="acc_active">activo</string>
+      <string id="acc_cc_hide">Ocultar subtítulos (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Mostrar subtítulos (Ctrl+Alt+C)</string>
+      <string id="acc_definition">definición</string>
+      <string id="acc_enter_fullscreen">Poner a pantalla completa (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Salir de pantalla completa (Ctrl+Alt+F)</string>
+      <string id="acc_finish">finalizar</string>
+      <string id="acc_locked">bloqueado</string>
+      <string id="acc_modern_video_captions">subtítulos del video</string>
+      <string id="acc_modern_video_fullscreen">video a pantalla completa</string>
+      <string id="acc_modern_video_mute">silenciar video</string>
+      <string id="acc_modern_video_pause">pausar video</string>
+      <string id="acc_modern_video_pip">miniatura video</string>
+      <string id="acc_modern_video_play">reproducir video</string>
+      <string id="acc_modern_video_playback_speed">velocidad de reproducción</string>
+      <string id="acc_modern_video_settings">ajustes del video</string>
+      <string id="acc_modern_video_transcript">Abrir</string>
+      <string id="acc_modern_video_volume">volumen del video</string>
+      <string id="acc_mute">Silenciar (Ctrl+Alt+M)</string>
+      <string id="acc_next">Siguiente (Ctrl+Alt+punto)</string>
+      <string id="acc_next_visual">Siguiente (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pausar (Ctrl+Alt+P)</string>
+      <string id="acc_play">Reproducir (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Velocidad de reproducción</string>
+      <string id="acc_previous">Anterior (Ctrl+Alt+coma)</string>
+      <string id="acc_previous_visual">Anterior (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Volver a reproducir (Ctrl+Alt+R)</string>
+      <string id="acc_resources">los recursos</string>
+      <string id="acc_search_input">búsqueda</string>
+      <string id="acc_settings">Ajustes</string>
+      <string id="acc_skipnavigation">Volver a la diapositiva</string>
+      <string id="acc_slide_progress">progreso de la diapositiva</string>
+      <string id="acc_submit">Enviar (Ctrl+Alt+S)</string>
+      <string id="acc_submitall">enviar todo</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% de %total% ítems visitados</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% de %total% ítems visitados</string>
+      <string id="acc_three_image_step_count_of_total">paso %count% de %total%</string>
+      <string id="acc_unmute">Quitar silencio (Ctrl+Alt+M)</string>
+      <string id="acc_video_transcript_list">Transcripciones</string>
+      <string id="acc_visited">visitado</string>
+      <string id="acc_window_close">Cerrar</string>
+      <string id="acc_window_move">Mover ventana</string>
+      <string id="acc_window_options">Opciones</string>
+      <string id="acc_window_resize">Ajustar tamaño de ventana</string>
+      <string id="accessible_text">Texto accesible</string>
+      <string id="acctext_shortcut">Activar/Desactivar texto accesible</string>
+      <string id="action">Acción</string>
+      <string id="alt_key">Alt</string>
+      <string id="background_audio">Audio de fondo</string>
+      <string id="background_audio_shortcut">Activar/Desactivar el audio de fondo</string>
+      <string id="bio">Biografía</string>
+      <string id="check_include">De verificación para incluir</string>
+      <string id="clear">Borrar y volver al menú</string>
+      <string id="close">Cerrar</string>
+      <string id="closed_captions">Subtítulos</string>
+      <string id="closedcaptions_shortcut">Activar/desactivar subtítulos</string>
+      <string id="continue">Continuar</string>
+      <string id="continueresponsive">Continuar</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="definition">Definición</string>
+      <string id="desktop_start">Comenzar el curso</string>
+      <string id="disabled_orientation">Rote el dispositivo</string>
+      <string id="enable_keyboardshortcuts">Activar atajos del teclado</string>
+      <string id="enter_key">Intro</string>
+      <string id="exit">Salir</string>
+      <string id="filter">Filtro</string>
+      <string id="finish">FINALIZAR</string>
+      <string id="fullscreen_shortcut">Activar/desactivar pantalla completa</string>
+      <string id="glossary">Glosario</string>
+      <string id="keyboardshortcuts">Atajos de teclado</string>
+      <string id="keyboardshortcuts_lower">Atajos de teclado</string>
+      <string id="mobile_start">Comenzar el curso</string>
+      <string id="modern_video_captions_label">Subtítulos</string>
+      <string id="modern_video_captions_off">Desactivado</string>
+      <string id="modern_video_captions_on">Activado</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="modern_video_playback_settings">Ajustes de reproducción del video</string>
+      <string id="modern_video_playback_speed_title">Velocidad de reproducción</string>
+      <string id="modern_video_settings_close">cerrar ajustes de video</string>
+      <string id="more_info">Más información</string>
+      <string id="mute_shortcut">Activar / Desactivar silencio</string>
+      <string id="next">SIG</string>
+      <string id="next_shortcut">Siguiente</string>
+      <string id="outline">Menú</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="playback_speed_title">Velocidad de reproducción</string>
+      <string id="playpause_shortcut">Reproducir / pausar</string>
+      <string id="prev">ANT</string>
+      <string id="previous_shortcut">Anterior</string>
+      <string id="progress_hour">hora</string>
+      <string id="progress_hours">horas</string>
+      <string id="progress_minute">minuto</string>
+      <string id="progress_minutes">minutos</string>
+      <string id="progress_second">segundo</string>
+      <string id="progress_seconds">segundos</string>
+      <string id="question_list">Lista de preguntas</string>
+      <string id="replay_shortcut">Volver a reproducir</string>
+      <string id="resources">Recursos</string>
+      <string id="restart">Reiniciar</string>
+      <string id="resume">Continuar</string>
+      <string id="search">Buscar ...</string>
+      <string id="search_in">Buscar en:</string>
+      <string id="search_results">Resultados de la búsqueda</string>
+      <string id="search_toggle">Buscar</string>
+      <string id="send_an_email">Enviar correo electrónico</string>
+      <string id="shift_key">Mayúsculas</string>
+      <string id="shortcut">Atajo</string>
+      <string id="shortcuthelp">Listar los atajos de teclado</string>
+      <string id="sidebar_toggle">Mostrar/ocultar barra lateral</string>
+      <string id="slide_text_chk">Texto Diapositiva</string>
+      <string id="spacebar_key">Espacio</string>
+      <string id="streaming_video_local_playback_learn_more">Saber más</string>
+      <string id="streaming_video_local_playback_republish">Para ver este video, utiliza la funcionalidad de previsualización en Storyline 360, sube tu curso publicado a un servidor, publica el curso en Review 360 o cambia a calidad de video estática.</string>
+      <string id="streaming_video_local_playback_title">El video en streaming no está disponible para reproducción local.</string>
+      <string id="submit">ENVIAR</string>
+      <string id="submit_shortcut">Enviar</string>
+      <string id="submitall">ENVIAR TODO</string>
+      <string id="terms">Condiciones</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">cámara movida hacia abajo</string>
+      <string id="three_image_camera_left">cámara movida a la izquierda</string>
+      <string id="three_image_camera_right">cámara movida a la derecha</string>
+      <string id="three_image_camera_up">cámara movida hacia arriba</string>
+      <string id="three_image_count_of_total">%count% de %total%</string>
+      <string id="three_image_count_of_total_visited">%count% de %total% visitados</string>
+      <string id="three_image_hotspot">punto caliente</string>
+      <string id="three_image_instructions">Utiliza las teclas W, A, S y D para moverte por la imagen de 360 grados. Presiona la tecla TAB para saltar a los marcadores interactivos y los puntos calientes.</string>
+      <string id="three_image_interaction">interacción de la imagen de 360 grados</string>
+      <string id="three_image_interaction_free">modo de exploración libre</string>
+      <string id="three_image_interaction_guided">modo de tour guiado</string>
+      <string id="three_image_interaction_next">siguiente</string>
+      <string id="three_image_interaction_prev">anterior</string>
+      <string id="three_image_interaction_step">paso</string>
+      <string id="three_image_item">ítem</string>
+      <string id="three_image_items">ítems</string>
+      <string id="three_image_label">etiqueta</string>
+      <string id="three_image_marker">marcador</string>
+      <string id="three_image_of">de</string>
+      <string id="three_image_pause_audio">pausar audio</string>
+      <string id="three_image_pause_video">pausar video</string>
+      <string id="three_image_play_audio">reproducir audio</string>
+      <string id="three_image_play_video">reproducir video</string>
+      <string id="three_image_progress_audio">progreso</string>
+      <string id="three_image_progress_video">progreso</string>
+      <string id="three_image_tooltip">descripción emergente</string>
+      <string id="three_image_total_item">%total% ítem</string>
+      <string id="three_image_total_items">%total% ítems</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">volumen del video</string>
+      <string id="three_image_visited">visitado</string>
+      <string id="togglezoom">Activar/Desactivar el zoom para llenar la pantalla</string>
+      <string id="transcript">Notas</string>
+      <string id="transcript_auto_scroll">Desplazamiento automático</string>
+      <string id="transcript_chk">Notas</string>
+      <string id="transcript_show_timestamp">Mostrar marcas de tiempo</string>
+      <string id="video_transcript_resume_autoscroll">Reanudar desplazamiento automático</string>
+      <string id="video_transcript_select_track">Seleccionar pista</string>
+      <string id="video_transcript_title">Transcripciones</string>
+      <string id="zoom_to_fit">Habilitar zoom del navegador</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5tFWBcRcWfz" displaytext="INTRODUCCIÓN" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5tFWBcRcWfz.6TC7Z90l2Jg" displaytext="Hola! Comencemos..." expand="false" type="slide" />
+            <slidelink slideid="_player.5tFWBcRcWfz.5fASbVwXAbb" displaytext="Bienvenido/a " expand="false" type="slide" />
+            <slidelink slideid="_player.5tFWBcRcWfz.5tLTISlC8wY" displaytext="¿Cuál es nuestro propósito?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.64ugHyhbUsP" displaytext="CAPÍTULO I: Conociendo a la Compañía" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.64ugHyhbUsP.5bri3Pe1FuM" displaytext="Inicio capítulo I" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.5WKiOv93B37" displaytext="Nuestra Política" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6efQS4iZojy" displaytext="Lo que nos distingue " expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6JPLgMBPyyd" displaytext="Contamos con ..." expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.5hZLQVHdtOV" displaytext="Nuestra política 2" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.5hD0Ix8noit" displaytext="Guías de comportamiento" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6KLfVY6qmIL" displaytext="Diversidad e inclusión" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6DOKZR3NGfL" displaytext="Riesgo material: Acoso y agresión sexual" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.5VhjOhv62lv" displaytext="Acoso y agresión sexual" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6RqlR67j44n" displaytext="¿Qué tipos de conductas constituyen acoso sexual?" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6TMtN3etsmj" displaytext="Mensajes clave" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6hewn36eaGn" displaytext="Beneficios de una conducta segura" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.6NDoIzhkNpQ" displaytext="Factores que implican sansiones" expand="false" type="slide" />
+            <slidelink slideid="_player.64ugHyhbUsP.65rsmr8ngpc" displaytext="Cierre" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6OPqkjBqcdY" displaytext="CAPÍTULO II: Gestión de seguridad BHP" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6OPqkjBqcdY.6kvF8DsYn6l" displaytext="Inicio capítulo II" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.5lR12AetLzL" displaytext="Objetivos específicos" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6TUnloQGHR4" displaytext="Definiciones" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.5dMkM7BsEtC" displaytext="Administración de riesgos" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6aFuEpzN7Vi" displaytext="Cartilla identifiación segura (CIS)" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6HhWxRGlbNs" displaytext="¿Qué es la Cartilla identifiación segura?" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6jdnXhPk5SB" displaytext="Etapas Cartilla identificación segura" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.5vkmva1rdY6" displaytext="Instrucción de seguridad para riesgos materiales " expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.5rJ8EsTMxg0" displaytext="Instrucción de seguridad" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6LSTk9LVdKb" displaytext="Herramienta: Levantar la mano" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6dW6NRARjyP" displaytext="Permiso de trabajo: Roles" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.5vq8NjowIjw" displaytext="Permiso de trabajo" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6KFiunzAJMz" displaytext="Emergencia: Tipos y situaciones" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6aIg3xuhlPn" displaytext="Emergencias" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.60UwVkBBb7L" displaytext="Programa de liderazgo en terreno" expand="false" type="slide" />
+            <slidelink slideid="_player.6OPqkjBqcdY.6r8lTHyyHxW" displaytext="Cierre" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6DWGtR59YEZ" displaytext="CAPÍTULO III: Gestión de salud" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DWGtR59YEZ.6dRDACt1u5t" displaytext="Inicio capítulo III" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.5wO2g8YjqzR" displaytext="Objetivos específicos" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.6Ju1LpCKLDA" displaytext="Definiciones" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.64mHMrNq9jE" displaytext="Cumplimiento legal corporativo" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.5zTiCss27Sf" displaytext="Gestión de expuestos" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.5hTdbGpYdVp" displaytext="Higiene y salud ocupacional" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.5bxlsfewgk3" displaytext="Prevención de enfermedades" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.5q5j6Y2rEVo" displaytext="No ocupacionales" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.6o0ZugpdG92" displaytext="Ocupacionales" expand="false" type="slide" />
+            <slidelink slideid="_player.6DWGtR59YEZ.5d3Gf3zapFM" displaytext="Cierre" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5sCmU4gCu8u" displaytext="CAPÍTULO IV: Gestión de medio ambiente" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5sCmU4gCu8u.5g15W2aa2c6" displaytext="Inicio capítulo IV" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.5k6Cw1d2tPl" displaytext="Objetivos específicos" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.6PyUREZtg1H" displaytext="Biodiversidad y gestión de terreno" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.5kX34ZDzP8M" displaytext="Gestión Medio ambiental" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.5lduBFAVVed" displaytext="Gestión de energía" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.666yNfWvb6n" displaytext="Biodiversidad" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.6Wwr453Lbek" displaytext="Gestión en calidad de aire" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.66pZ6uloe92" displaytext="Gestión en manejo de residuos" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.6kmaMG8SU7S" displaytext="Gestion de sustancias peligrosas" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.5bpQ2mCo5kU" displaytext="Monitoreo y reportabilidad" expand="false" type="slide" />
+            <slidelink slideid="_player.5sCmU4gCu8u.6QlRUj6GGl3" displaytext="Cierre final" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5tFWBcRcWfz.6TC7Z90l2Jg" slidebank="false" type="slide">  inducción   v.0.1</slidetext>
+      <slidetext slideid="5tFWBcRcWfz.5fASbVwXAbb" slidebank="false" type="slide">          </slidetext>
+      <slidetext slideid="5tFWBcRcWfz.5tLTISlC8wY" slidebank="false" type="slide">               introducción &gt; ¿cuál es nuestro propósito?</slidetext>
+      <slidetext slideid="5tFWBcRcWfz.5YFyZqQRMXq" slidebank="false" type="slide">               para lograr nuestro propósito necesitamos acordar todos como vamos a trabajar juntos…  …enfocándonos en lo que importa más.​ ¿cuál es nuestro propósito?  ¿cuál es  nuestro propósito?  introducción &gt; ¿cuál es nuestro propósito?</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6kvF8DsYn6l" slidebank="false" type="slide">      </slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5lR12AetLzL" slidebank="false" type="slide">               analizar el proceso de administración y evaluación de riesgos.​ conocer las etapas que integran la herramienta “cartilla de identificación segura” (cis) y los riesgos materiales que pueden presentarse al ejecutar un trabajo o tarea.​ identificar los 7 elementos que componen el sistema de gestión integrado. capítulo 2 &gt; objetivos específicos de la inducción objetivos  específicos de la inducción</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6TUnloQGHR4" slidebank="false" type="slide">               capítulo 2 &gt;definiciones definiciones ¿qué es un peligro?</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5dMkM7BsEtC" slidebank="false" type="slide">                herramienta preventiva (cis) y herramienta para el control de los riesgos materiales (is)  capítulo 2 &gt; administración de riesgos administración  de riesgos</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6aFuEpzN7Vi" slidebank="false" type="slide"> capítulo 1 &gt; guías de comportamiento​ &gt; nuestra carta de valores                capítulo 2 &gt; jerarquía control de riesgos jerarquía control de riesgos nuestra  carta de valores</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6HhWxRGlbNs" slidebank="false" type="slide"> capítulo 1 &gt; guías de comportamiento​ &gt; código de conductas de negocio de bhp billiton                 capítulo 2 &gt; cartilla de identificación segura (cis) cartilla identificación segura (cis) reemplazar al actual toma 5 disminuir eventos hse, mejorando identificación de riesgos. realizar gestión con los datos obtenidos de la aplicación de la cartilla.  la cartilla de identificación segura, cis, es una herramienta que fue hecha por los propios trabajadores para: identificar, evaluar y controlar riesgos. ellos comprenden mejor que nadie el trabajo que tú realizas y saben que el mejor trabajo sale de una acción segura objetivos de la cartilla identificación segura nuestra  carta de valores</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6jdnXhPk5SB" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglamento interno de higiene y seguridad   capítulo 2 &gt; ¿qué es la cartilla de identificación segura (cis)? es una nueva herramienta para identificar los riesgos en terreno, cuyo propósito es permitir que todos los trabajadores pueden identificar, evaluar y controlar los riesgos. es aplicable en todos los trabajos que se realicen diariamente en forma individual.   nuestra  carta de valores  ¿qué es la cartilla  de identificación segura (cis)?</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6WDjnu2Zers" slidebank="false" type="slide">                capítulo 2 &gt; etapas cartilla identificación segura (cis) en esta etapa debo preguntarme por el estado de salud y mi entorno de trabajo antes de iniciar la actividad.​ existen preguntas en positivo y negativo.  nuestra  carta de valores  etapas cartilla identificación segura (cis) 1 | 7</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5xzlps8s8xy" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales    en esta etapa se debe identificar los riesgos materiales que aplican de a cuerdo a la actividad que esta ejecutando.  llenando su correspondiente is que aplica.  nuestra  carta de valores  etapas cartilla identificación segura (cis) 2 | 7 capítulo 2 &gt; etapas cartilla identificación segura (cis)</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6g0HfxpC1Ht" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales    en esta etapa se debe identificar los permisos de trabajos que aplican de acuerdo a la actividad que esta ejecutando.  llenando su correspondiente formulario si aplica.  nuestra  carta de valores  etapas cartilla identificación segura (cis) 3 | 7 capítulo 2 &gt; etapas cartilla identificación segura (cis)</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5gQfVGNl834" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales    en esta etapa se debe identificar los riesgos no materiales que aplican de acuerdo a la actividad que está ejecutando.  nuestra  carta de valores  etapas cartilla identificación segura (cis) 4 | 7 capítulo 2 &gt; etapas cartilla identificación segura (cis)</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6DZJQjiVOHP" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales    una vez que ya conocemos los riesgos que nos estamos enfrentando.  debemos controlar los riesgos a través de medidas de controles.  nuestra  carta de valores  etapas cartilla identificación segura (cis) 5 | 7 capítulo 2 &gt; etapas cartilla identificación segura (cis)</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5gvzEMAmVrd" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales    ya identificado los riesgos y estos están controlados. se deben anotar y firmar todos los involucrados en la tarea, para luego proceder a trabajar. además de contar con la visación del responsable de la ejecución de la tarea.  nuestra  carta de valores  etapas cartilla identificación segura (cis) 6 | 7 capítulo 2 &gt; etapas cartilla identificación segura (cis)</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5pfmZadPeMI" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales    una vez finalizado el trabajo se debe completar la finalización de la tarea housekeeping.  nuestra  carta de valores  etapas cartilla identificación segura (cis) 7 | 7 capítulo 2 &gt; etapas cartilla identificación segura (cis)</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5vkmva1rdY6" slidebank="false" type="slide">                riesgos materiales de seguridad: se refiere a todos aquellos riesgos  que tienen el potencial o capacidad  de generar una o más fatalidades capítulo 2 &gt; instrucción de seguridad (is) para riesgos materiales de seguridad instrucción de seguridad (is)  para riesgos materiales de seguridad definición aplica en todas las actividades de minera escondida bhp indistintamente si estas son ejecutadas por trabajadores directos o por empresas donde existan riesgos materiales de seguridad involucrados. alcance 1 | 2</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6mOY1kRtJaZ" slidebank="false" type="slide">               capítulo 2 &gt; instrucción de seguridad (is) para riesgos materiales de seguridad instrucción de seguridad (is)  para riesgos materiales de seguridad  es un control cuyo objetivo principal  es la reducción del potencial de ocurrencia de un riesgo material de seguridad. no son negociables, la falla o ausencia de estos controles críticos conlleva la detención del trabajo.  controles  críticos aplica en todas las actividades de minera escondida bhp indistintamente si estas son ejecutadas por trabajadores directos o por empresas donde existan riesgos materiales de seguridad involucrados. ¿qué es una  instrucción de  seguridad (is)?  2 | 2</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5rJ8EsTMxg0" slidebank="false" type="slide">               instrucción  de seguridad (is)  capítulo 2 &gt; instrucción de seguridad (is) </slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6LSTk9LVdKb" slidebank="false" type="slide">               capítulo 2 &gt; herramienta levantar la mano herramienta levantar la mano el levantar la mano es un foco importante en la gestión  hse, que lleva a la acción la preocupación crónica, que  es un estado de permanente alerta a los riesgos presentes  en nuestras actividades, asociado a un sano cuestionamiento respecto a las decisiones que tomamos para identificar  y controlar de forma preventiva situaciones que pueden comprometer la salud y seguridad de las personas o  impactar al medio ambiente.  1 | 3</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6YORUQIADOe" slidebank="false" type="slide">               capítulo 2 &gt; herramienta levantar la mano herramienta levantar la mano  2 | 3 esta herramienta refleja la libertad para levantar situaciones (safe to speak up) y ​la gestión preventiva de la primera línea. ​esta acción puede estar orientada a los ámbitos de:</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6MGZYvQjHpM" slidebank="false" type="slide">               capítulo 2 &gt; herramienta levantar la mano herramienta levantar la mano  3 | 3 es importante que diariamente te realices las siguientes preguntas: </slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6dW6NRARjyP" slidebank="false" type="slide">               capítulo 2 &gt; permiso de trabajo &gt; roles permiso de trabajo roles  ¿dónde se presenta? este estándar especifica los requerimientos mínimos relacionados con la planificación y uso operacional de un sistema de permiso de trabajo, para lograr que existan los correspondientes controles de riesgos antes de llevar a cabo el trabajo y permite la ejecución de una tarea con los riesgos identificados y con sus medidas de control establecidas.​ los permiso de trabajo seguro, sólo aplica para aquellas tareas en que exista la presencia de un riesgo de fatalidad (riesgo material de seguridad)</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5vq8NjowIjw" slidebank="false" type="slide"> trabajos  simultáneos  en trabajo de armado y desarme de andamio de todo tipo con más de 1 cuerpo de andamio. trabajo en altura ≥ 10 metros. uso de canastillo conectado a las grúas móviles en altura.    capítulo 2 &gt; permiso de trabajo &gt; trabajos simultáneos  trabajo con  sustancias peligrosas  cuando se trabaje con cal viva mayor o igual a 88 m3 y en mantención mayor o reparaciones de línea de cal viva. cuando se trabaje con ácido sulfúrico mayor o igual 100 m3 y en la línea inter planta sobre 1800 m3/h y en la reparación de una línea o estanque de ácido. cuando se trabaje con ácido nítrico mayor 20 m3 y en el drenaje y retiro de los componentes. cuando se trabaje con nash mayor o igual 150 m3 y en mantención o limpieza de línea o tk. cuando se trabaje con xantato mayor o igual 30 m3 y en mantención o limpieza de línea o tk.      capítulo 2 &gt; permiso de trabajo &gt; trabajo con sustancias peligrosas  trabajo en  espacio confinado  un recinto confinado es cualquier espacio cerrado, con aberturas limitadas de entrada y salida y ventilación natural desfavorable, en el que pueden acumularse gases, vapores o nieblas de contaminantes tóxicos o inflamables, o existir una atmósfera pobre en oxígeno.  capítulo 2 &gt; permiso de trabajo &gt; trabajo en espacio confinado  trabajo enalta tensión  trabajos que impliquen la intervención en alta tensión (≥ 1000 volt.)  capítulo 2 &gt; permiso de trabajo &gt; trabajo en alta tensión  trabajo en  excavaciones y zanjas  excavaciones y zanjas con profundidad superior 1,5 mts, cuando exista el riesgo de atrapamiento.  capítulo 2 &gt; permiso de trabajo &gt; trabajo en excavaciones y zanjas  trabajo en caliente  con riesgo de incendio y/o explosión y en donde el trabajo se necesite realizar en un radio de 11 mts de materiales combustibles  o inflamables que son fácilmente incendiables por chispas.  capítulo 2 &gt; permiso de trabajo &gt; trabajo en caliente  capítulo 2 &gt; permiso de trabajo &gt; trabajo en altura trabajo en altura  en trabajo de armado y desarme de andamio de todo tipo con más de 1 cuerpo de andamio. trabajo en altura ≥ 10 metros. uso de canastillo conectado a las grúas móviles en altura.                   capítulo 2 &gt; permiso de trabajo  permiso de trabajo  ¿dónde se presenta? </slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6KFiunzAJMz" slidebank="false" type="slide">  capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia emergencia tipos y situaciones de emergencia, números de emergencia    una emergencia es un evento no planeado, poco frecuente y cuyas consecuencias constituyen un riesgo para las personas, instalaciones, medio ambiente y continuidad de la operación y mantención, si no se controla podría tener el potencial de transformarse en una situación de crisis. es todo evento en el cual se encuentran  involucrados materiales sólidos, líquidos y gases de acuerdo con la clasificación que se le dio en el inventario de peligros. emergencias con sustancias peligrosas   emergencia algunas definiciones importantes​ es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   es todo evento en el cual se encuentran  involucrados materiales sólidos, líquidos y gases de acuerdo con la clasificación que se le dio en el inventario de peligros. emergencias con sustancias peligrosas es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica    emergencia algunas definiciones importantes​ son equipos de trabajo cuyas funciones están 100 % referidas a entregar asesoría profesional a las demás áreas de la organización en materia de emergencia.​ equipos de​ respuesta de emergencia​ capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica      emergencia algunas definiciones importantes​ es una acción planificada mediante la cual cada persona o grupo de trabajo amenazado por riesgos colectivos, desarrolla procedimientos tendientes a ponerse a salvo por sus propios medios. evacuación​ capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   son equipos de trabajo cuyas funciones están 100 % referidas a entregar asesoría profesional a las demás áreas de la organización en materia de emergencia.​ equipos de​ respuesta de emergencia​      emergencia algunas definiciones importantes​ son aquellas que permiten sacar al trabajador del lugar en el que quedó, cuando se encuentre impedido de salir por sus propios medios.​ maniobras  de rescate  capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   es una acción planificada mediante la cual cada persona o grupo de trabajo amenazado por riesgos colectivos, desarrolla procedimientos tendientes a ponerse a salvo por sus propios medios. evacuación​    emergencia algunas definiciones importantes​ es un evento indeseado, no programado, que produce consecuencias adversas en los procesos (daños, lesiones, pérdidas, etc.).​ siniestro capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   son aquellas que permiten sacar al trabajador del lugar en el que quedó, cuando se encuentre impedido de salir por sus propios medios.​ maniobras  de rescate     emergencia algunas definiciones importantes​ es un evento indeseado, no programado, que produce consecuencias adversas en los procesos (daños, lesiones, pérdidas, etc.).​ siniestro capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   son aquellas que permiten sacar al trabajador del lugar en el que quedó, cuando se encuentre impedido de salir por sus propios medios.​ maniobras  de rescate     emergencia algunas definiciones importantes​ son aquellas que permiten sacar al trabajador del lugar en el que quedó, cuando se encuentre impedido de salir por sus propios medios.​ maniobras  de rescate  capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   es una acción planificada mediante la cual cada persona o grupo de trabajo amenazado por riesgos colectivos, desarrolla procedimientos tendientes a ponerse a salvo por sus propios medios. evacuación​    emergencia algunas definiciones importantes​ es una acción planificada mediante la cual cada persona o grupo de trabajo amenazado por riesgos colectivos, desarrolla procedimientos tendientes a ponerse a salvo por sus propios medios. evacuación​ capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   son equipos de trabajo cuyas funciones están 100 % referidas a entregar asesoría profesional a las demás áreas de la organización en materia de emergencia.​ equipos de​ respuesta de emergencia​      emergencia algunas definiciones importantes​ son equipos de trabajo cuyas funciones están 100 % referidas a entregar asesoría profesional a las demás áreas de la organización en materia de emergencia.​ equipos de​ respuesta de emergencia​ capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica      emergencia algunas definiciones importantes​ es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia   es todo evento en el cual se encuentran  involucrados materiales sólidos, líquidos y gases de acuerdo con la clasificación que se le dio en el inventario de peligros. emergencias con sustancias peligrosas es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica    capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia emergencia algunas definiciones importantes​    una emergencia es un evento no planeado, poco frecuente y cuyas consecuencias constituyen un riesgo para las personas, instalaciones, medio ambiente y continuidad de la operación y mantención, si no se controla podría tener el potencial de transformarse en una situación de crisis. es todo evento en el cual se encuentran  involucrados materiales sólidos, líquidos y gases de acuerdo con la clasificación que se le dio en el inventario de peligros. emergencias con sustancias peligrosas es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica                es importante para nosotros construir un ambiente de trabajo con una cultura inclusiva y de respeto, donde todos se sientan valorados, empoderados de trabajar en bhp. guiados por nuestra carta de valores​ ​regidos además por nuestro código de conducta que demuestra la manera práctica de aplicar los compromisos y valores que se establecen en nuestra carta capítulo 2 &gt; emergencia &gt; tipos y situaciones de emergencia, números de emergencia emergencia tipos y situaciones de emergencia, números de emergencia   una emergencia es un evento no planeado, poco frecuente y cuyas consecuencias constituyen un riesgo para las personas, instalaciones, medio ambiente y continuidad de la operación y mantención, si no se controla podría tener el potencial de transformarse en una situación de crisis.   es todo evento en el cual se encuentran  involucrados materiales sólidos, líquidos y gases de acuerdo con la clasificación que se le dio en el inventario de peligros. emergencias con sustancias peligrosas es toda condición clínica que implique riesgo de muerte o de secuela funcional grave. emergencia ​médica </slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6aIg3xuhlPn" slidebank="false" type="slide">               emergencias situaciones de emergencia  este estándar especifica los requerimientos mínimos relacionados con la planificación y uso operacional de un sistema de permiso de trabajo, para lograr que existan los correspondientes controles de riesgos antes de llevar a cabo el trabajo y permite la ejecución de una tarea con los riesgos identificados y con sus medidas de control establecidas.​ los permiso de trabajo seguro, sólo aplica para aquellas tareas en que exista la presencia de un riesgo de fatalidad (riesgo material de seguridad) capítulo 2 &gt; emergencias &gt; situaciones de emergencia tipos de emergencia 1 | 3</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5epRdGkGKKY" slidebank="false" type="slide">               emergencias situaciones de emergencia  este estándar especifica los requerimientos mínimos relacionados con la planificación y uso operacional de un sistema de permiso de trabajo, para lograr que existan los correspondientes controles de riesgos antes de llevar a cabo el trabajo y permite la ejecución de una tarea con los riesgos identificados y con sus medidas de control establecidas.​ los permiso de trabajo seguro, sólo aplica para aquellas tareas en que exista la presencia de un riesgo de fatalidad (riesgo material de seguridad) capítulo 2 &gt; emergencias &gt; situaciones de emergencia preparación  y respuesta  ante situaciones  de emergencia 2 | 3</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.5Zh8EROmXst" slidebank="false" type="slide">               emergencias situaciones de emergencia  este estándar especifica los requerimientos mínimos relacionados con la planificación y uso operacional de un sistema de permiso de trabajo, para lograr que existan los correspondientes controles de riesgos antes de llevar a cabo el trabajo y permite la ejecución de una tarea con los riesgos identificados y con sus medidas de control establecidas.​ los permiso de trabajo seguro, sólo aplica para aquellas tareas en que exista la presencia de un riesgo de fatalidad (riesgo material de seguridad) capítulo 2 &gt; emergencias &gt; situaciones de emergencia 3 | 3 desde la central de emergencia se monitorea todo lo que sucede en las instalaciones de minera escondida bhp</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.60UwVkBBb7L" slidebank="false" type="slide">               las herramientas de liderazgo en terreno están diseñadas para impulsar un cambio cultural y mejorar los resultados de salud, seguridad y medio ambiente (hse) a través de líderes comprometidos en forma visible y completa. el programa está formado por cuatro procesos distintos o herramientas, cada proceso tiene sus propios objetivos, participantes y pasos. capítulo 2 &gt; programa de liderazgo en terreno programa de liderazgo en terreno</slidetext>
+      <slidetext slideid="6OPqkjBqcdY.6r8lTHyyHxW" slidebank="false" type="slide">      </slidetext>
+      <slidetext slideid="64ugHyhbUsP.5bri3Pe1FuM" slidebank="false" type="slide">      </slidetext>
+      <slidetext slideid="64ugHyhbUsP.5WKiOv93B37" slidebank="false" type="slide">               bhp es una compañía global  líder en recursos naturales capítulo 1 &gt; nuestra política nuestra política </slidetext>
+      <slidetext slideid="64ugHyhbUsP.6efQS4iZojy" slidebank="false" type="slide">               poseer y operar activos primarios de gran tamaño, larga vida, bajo costo, con potencial de crecimiento y diversificados según el producto, ubicación geográfica y mercado.  capítulo 1 &gt; lo que nos distingue de nuestros pares es …  lo que nos distingue de nuestros pares es … </slidetext>
+      <slidetext slideid="64ugHyhbUsP.6JPLgMBPyyd" slidebank="false" type="slide">               extracción de mineral desde dos rajos abiertos: escondida y escondida norte.  tres plantas para la producción de concentrado de cobre: los colorados, laguna seca l1 y l2. el concentrado de cobre se transporta a través de dos mineroductos desde la mina a la planta de filtro ubicada en el puerto de coloso. pilas de lixiviación para mineral de sulfuro y mineral de oxido. dos plantas de extracción por solvente. dos plantas de electro obtención para la producción de cátodos de cobre. una planta desalinizadora de agua de mar cuyo producto, agua industrial conjuntamente con el  agua de filtrado se transporta a través de un acueducto hacia la mina. capítulo 1 &gt; bhp escondida ​contamos con: bhp escondida contamos con:</slidetext>
+      <slidetext slideid="64ugHyhbUsP.5hZLQVHdtOV" slidebank="false" type="slide">               nuestra política  está orientada a vivir de acuerdo a una cultura ​de cero daño, de respeto y cuidado por la vida, el medio ambiente y las comunidades de las cuales somos parte.  nuestra política está orientada a vivir de acuerdo a una cultura ​de cero daño, de respeto y cuidado por la vida, el medio ambiente y las comunidades de las cuales somos parte.  capítulo 1 &gt; nuestra política</slidetext>
+      <slidetext slideid="64ugHyhbUsP.5hD0Ix8noit" slidebank="false" type="slide"> capítulo 1 &gt; guías de comportamiento​ &gt; nuestra carta de valores nuestra  carta de valores                 capítulo 1 &gt; guías de comportamiento​ &gt; nuestra carta de valores guías de comportamiento  1 | 4 nuestra carta de valores ha sido parte central de todo lo que hacemos. es el documento más importante en bhp, estableciendo 3 valores.   nuestra  carta de valores nuestra  carta de valores</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6qVZSu7hlxy" slidebank="false" type="slide"> capítulo 1 &gt; guías de comportamiento​ &gt; código de conductas de negocio de bhp billiton  código de conductas ​de negocio de bhp  el código nos ayuda a guiarnos en nuestro trabajo diario,  demuestra la manera práctica de aplicar los compromisos y valores que se establecen en nuestra carta y refleja muchos de los documentos como estándares y procedimientos que se aplican en bhp.                 capítulo 1 &gt; guías de comportamiento​ &gt; código de conductas de negocio de bhp billiton  guías de comportamiento  2 | 4 el código nos ayuda a guiarnos en nuestro trabajo diario, demuestra la manera práctica de aplicar los compromisos y valores que se establecen en nuestra carta y refleja muchos de los documentos como estándares y procedimientos que se aplican en bhp.​  código de conductas  de negocio de bhp nuestra  carta de valores</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6JOVZ7HxyDt" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglamento interno de higiene y seguridad   capítulo 1 &gt; guías de comportamiento​ &gt; reglamento interno de higiene y seguridad guías de comportamiento  3 | 4 rige las relaciones internas derivadas de la vinculación laboral entre minera escondida limitada y sus trabajadores. (titulo viii de las obligaciones de los trabajadores)  reglamento interno ​dehigiene y seguridad nuestra  carta de valores</slidetext>
+      <slidetext slideid="64ugHyhbUsP.5lF9yppTh3b" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales reglas cardinales    capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales guías de comportamiento  4 | 4 normas internas que guían nuestros comportamientos en materia de seguridad estableciendo los márgenes de acción en minera escondida.  reglas  cardinales nuestra  carta de valores</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6hewn36eaGn" slidebank="false" type="slide"> introducción &gt; beneficios de una conducta segura  introducción &gt; beneficios de una conducta segura  introducción &gt; beneficios de una conducta segura                ¿cuál es nuestro propósito?  introducción &gt; beneficios de una conducta segura beneficios  de una conducta segura</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6NDoIzhkNpQ" slidebank="false" type="slide">introducción &gt; factores que implican sansiones  introducción &gt; factores que implican sansiones   introducción &gt; factores que implican sansiones                ¿cuál es nuestro propósito?  introducción &gt; factores que implican sansiones factores  que implican sansiones</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6KLfVY6qmIL" slidebank="false" type="slide">               es importante para nosotros construir un ambiente de trabajo con una cultura inclusiva y de respeto, donde todos se sientan valorados, empoderados de trabajar en bhp. guiados por nuestra carta de valores​ ​regidos además por nuestro código de conducta que demuestra la manera práctica de aplicar los compromisos y valores que se establecen en nuestra carta capítulo 1 &gt; diversidad e inclusión diversidad e inclusión  es importante para nosotros construir un ambiente de trabajo con una cultura inclusiva y de respeto, donde todos se sientan valorados, empoderados de trabajar en bhp. guiados por nuestra carta de valores​. ​regidos además por nuestro código de conducta que demuestra la manera práctica de aplicar los compromisos  y valores que se establecen en nuestra carta.</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6DOKZR3NGfL" slidebank="false" type="slide">               para escondida | bhp el acoso sexual es toda acción o conducta que se considera indeseable, humillante, intimidante u ofensiva para quien lo recibe. puede incluir contacto indeseable, comentarios o bromas sugestivas, insultos de naturaleza sexual, envío de correos electrónicos o mensajes sexualmente explícitos.​  capítulo 1 &gt; riesgo material: acoso y agresión sexual riesgo material acoso y agresión sexual</slidetext>
+      <slidetext slideid="64ugHyhbUsP.5VhjOhv62lv" slidebank="false" type="slide">               capítulo 1 &gt; riesgo material: acoso y agresión sexual &gt; ¿dónde se presenta? acoso y agresión sexual ¿dónde se presenta?  ¿dónde se presenta?       - faena. ​       - plataformas. ​       - oficinas. ​       - campamentos.​       - lugares relacionados a un         viaje de negocios.​  - siempre que haya una relación laboral o conexión al lugar o relación de trabajo entre dos o más personas.​  1 | 3</slidetext>
+      <slidetext slideid="64ugHyhbUsP.5vg4kAF1srJ" slidebank="false" type="slide">               capítulo 1 &gt; riesgo material: acoso y agresión sexual &gt; ¿dónde se presenta? acoso y agresión sexual ¿qué es un comportamiento irrespetuoso?​  ¿dónde se presenta? 2 | 3 características​</slidetext>
+      <slidetext slideid="64ugHyhbUsP.5qwZepTp3W7" slidebank="false" type="slide">               capítulo 1 &gt; riesgo material: acoso y agresión sexual &gt; ¿dónde se presenta? acoso y agresión sexual ¿porqué es importante prevenir el acoso?​  ¿dónde se presenta? 3 | 3 nuestra compañía como las empresas colaboradoras tienen la obligación  legal de proporcionar un entorno de trabajo seguro para todos​. el acoso sexual está muy extendido en el mundo del trabajo, siendo una de las principales causas por las que las mujeres abandonan su trabajo.​ no podemos esperar y dejar que esto le pase a nuestros compañeros  y compañeras de trabajo.​ las consecuencias para las personas impactadas son devastadoras, estrés postraumático, depresión, sentimientos de miedo, rabia e impotencia, daño  en sus carreras y en su entorno laboral y familiar, y en casos extremos suicidio.​</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6RqlR67j44n" slidebank="false" type="slide">               capítulo 1 &gt; riesgo material: acoso y agresión sexual &gt; ¿dónde se presenta? ¿qué tipos de conductas constituyen acoso sexual?  ¿dónde se presenta?</slidetext>
+      <slidetext slideid="64ugHyhbUsP.6TMtN3etsmj" slidebank="false" type="slide">               proporcionar un ambiente donde todos nos sintamos seguros. fomentar una cultura de inclusión y de respeto. el acoso/agresión sexual está definido por escondida como riesgo material. todas las conductas que constituyen acoso sexual son un quiebre del código de conducta de escondida | bhp.  (no es tolerable).  las conductas de acoso sexual pueden ocurrir fuera del lugar  y horario de trabajo.  capítulo 1 &gt; riesgo material: acoso y agresión sexual &gt; ¿qué es un comportamiento irrespetuoso? mensajes clave relacionados ​con acoso / agresión sexual      </slidetext>
+      <slidetext slideid="64ugHyhbUsP.65rsmr8ngpc" slidebank="false" type="slide">      </slidetext>
+      <slidetext slideid="6DWGtR59YEZ.6dRDACt1u5t" slidebank="false" type="slide">      </slidetext>
+      <slidetext slideid="6DWGtR59YEZ.5wO2g8YjqzR" slidebank="false" type="slide">               conocer los elementos principales del plan de gestión de salud. reconocer los agentes ambientales que se presentan dentro del lugar de trabajo y que pueden causar enfermedades, deterioro a la salud y bienestar de los trabajadores capítulo 3 &gt; gestión de salud &gt; objetivos específicos objetivos  específico </slidetext>
+      <slidetext slideid="6DWGtR59YEZ.6Ju1LpCKLDA" slidebank="false" type="slide">               capítulo 3 &gt; gestión de salud &gt; plan de gestión de salud definiciones existen tres pilares fundamentales que conforman el plan de gestión de salud, estos son: cumplimiento legal, gestión de expuestos y prevención de enfermedades, los mismos permiten velar por el correcto funcionamiento y el mejoramiento de las actividades identificadas gestión de salud herramienta levantar la mano</slidetext>
+      <slidetext slideid="6DWGtR59YEZ.64mHMrNq9jE" slidebank="false" type="slide">               capítulo 3 &gt; gestión de salud &gt; cumplimiento legal corporativo cumplimiento legal corporativo cuerpos legales nuestra  carta de valores</slidetext>
+      <slidetext slideid="6DWGtR59YEZ.5zTiCss27Sf" slidebank="false" type="slide">               capítulo 3 &gt; gestión de salud &gt; gestión de expuestos gestión de expuestos nuestra  carta de valores</slidetext>
+      <slidetext slideid="6DWGtR59YEZ.5hTdbGpYdVp" slidebank="false" type="slide">               capítulo 3 &gt; gestión de salud &gt; higiene y salud ocupacional higiene y salud ocupacional las actividades a realizar están divididas en 4 etapas:​  nuestra  carta de valores</slidetext>
+      <slidetext slideid="6DWGtR59YEZ.5bxlsfewgk3" slidebank="false" type="slide">               capítulo 3 &gt; gestión de salud &gt; prevención de enfermedades prevención de enfermedades para prevenir enfermedades del personal de minera escondida bhp y sus empresas contratistas se debe no solo tener control sobre los factores laborales que puedan afectar a sus trabajadores sino también influenciar a los propios trabajadores a seguir con las buenas prácticas una vez que abandonan la faena. por ello, se consideran 2 focos de prevención de enfermedades: ocupacional y no ocupacional. nuestra  carta de valores</slidetext>
+      <slidetext slideid="6DWGtR59YEZ.5q5j6Y2rEVo" slidebank="false" type="slide">              capítulo 1 &gt; guías de comportamiento​ &gt; reglas cardinales   programa salud integral minera escondida bhp simel se controlará y vigilará la salud general de los trabajadores con exámenes preocupacionales, ocupacionales y pre-egreso se coordinará con organismo administrador, programas especiales de prevención de enfermedades ocupacionales en temas como capítulo 3 &gt; gestión de salud &gt; prevención de enfermedades ocupacionales nuestra  carta de valores  prevención de enfermedades no ocupacionales</slidetext>
+      <slidetext slideid="6DWGtR59YEZ.6o0ZugpdG92" slidebank="false" type="slide">               capítulo 3 &gt; gestión de salud &gt; prevención de enfermedades no ocupacionales prevención de enfermedades ocupacionales el área de salud de minera escondida bhp cuenta también con un enfoque preventivo dentro de sus planes, desarrollando un programa de calidad de vida que contiene todas las iniciativas relacionadas a mejorar la habitabilidad, alimentación, salud física y mental de los trabajadores como también la inclusión de sus familias.  nuestra  carta de valores</slidetext>
+      <slidetext slideid="6DWGtR59YEZ.5d3Gf3zapFM" slidebank="false" type="slide">      </slidetext>
+      <slidetext slideid="5sCmU4gCu8u.5g15W2aa2c6" slidebank="false" type="slide">      </slidetext>
+      <slidetext slideid="5sCmU4gCu8u.5k6Cw1d2tPl" slidebank="false" type="slide">               identificar los aspectos ambientales asociados a las actividades desarrolladas en escondida, y los controles para estos. comprender el sistema de gestión ambiental minera escondida objetivos  específicos  capítulo 4 &gt; gestión de medio ambiente &gt; objetivos específicos</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.6PyUREZtg1H" slidebank="false" type="slide">                tenemos un procedimiento sobre gestión de territorio y biodiversidad, que nos indica los pasos a seguir en caso de  entregas de áreas, proyectos  y cierres de instalaciones de faena. la liberación ambiental de  áreas se realiza cuando se va a desarrollar algún proyecto , y se requiere  que se liberen los componentes de flora , fauna y arqueología , para ello se debe presentar el proyecto al asesor del área.   capítulo 4 &gt; gestión de medio ambiente &gt; biodiversidad y gestión de terreno biodiversidad y  gestión de terreno</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.5kX34ZDzP8M" slidebank="false" type="slide">               gestión medio ambiental capítulo 4 &gt; gestión de medio ambiente &gt; biodiversidad  certificación ambiental iso 14001:2015 gestión en calidad de  aire gestión de territorio y biodiversidad monitoreo ambiental reporte de eventos ambientales gestión del agua manejo de residuos y gestión de sustancias químicas monitoreo ambiental</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.5lduBFAVVed" slidebank="false" type="slide">                capítulo 4 &gt; gestión de medio ambiente &gt; gestión de energía, agua y gases efecto invernadero la compañía define metas públicas de reducción del consumo de agua y emisión de gases de que provienen del uso de combustibles fósiles y el uso de electricidad, además se ha privilegiado el uso de agua de mar desalinizada  en vez de agua fresca. se trabaja en disminuir los efecto sobre el medio ambiente través de proyectos de reducción  y se tienen metas de cumplimiento que nos ayudan a realizar su seguimiento en el tiempo. gestión de  energía, agua y  gases efecto invernadero</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.666yNfWvb6n" slidebank="false" type="slide">              una vez que los delincuentes se retiren del lugar, dar aviso inmediato a protección industrial si existen lesionados llama inmediatamente presionando botón rojo de su radio o a los números de emergencia. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa.              capítulo 4 &gt; gestión de medio ambiente &gt; biodiversida qué hacer en caso de  avistamiento de fauna   biodiversidad trabajador avista fauna especialista ambiental de área especialista ambiental manejo de fauna registro reporte incidente ambiental ejemplar hallado muerto muerte accidental por atropello</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.6Wwr453Lbek" slidebank="false" type="slide">               para esto se identifican las fuentes y se les aplican los controles necesarios durante la fase de construcción las áreas operativas con apoyo de los especialistas hse deben verificar la utilización y disponibilidad de los controles de acuerdo a lo comprometido". se mantienen monitoreos de mp10 y meteorología en coloso y faena mel con el fin de controlar y gestionar las emisiones de nuestra operación y proyectos gestión  en calidad del aire  capítulo 4 &gt; gestión de medio ambiente &gt; gestión en calidad del aire mitigación de las emisiones que afectan la calidad del aire, específicamente para pm10, por ser la emisión  predominante  tanto en las etapas de construcción como de operación de los proyectos  gestión de la calidad del aire en los proyectos gestión de la calidad del aire operativa monitoreo</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.66pZ6uloe92" slidebank="false" type="slide">              una vez que los delincuentes se retiren del lugar, dar aviso inmediato a protección industrial si existen lesionados llama inmediatamente presionando botón rojo de su radio o a los números de emergencia. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa.              la segregación es la clave para la correcta gestión de residuos. cada residuo debe disponerse en el receptáculo del color correspondiente. capítulo 4 &gt; gestión de medio ambiente &gt; gestión en manejo de residuos gestión de manejo de residuos      </slidetext>
+      <slidetext slideid="5sCmU4gCu8u.6NLEFRQiLJL" slidebank="false" type="slide">               residuos domésticos e industriales sin valor comercial, tienen distinto final, el relleno sanitario de minera escondida. residuos industriales de valor comercial son reciclados en industrias y empresas capítulo 4 &gt; gestión de medio ambiente &gt; gestión en manejo de residuos gestión de manejo de residuos residuos domésticos residuos industriales no peligrosos</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.6kmaMG8SU7S" slidebank="false" type="slide">              una vez que los delincuentes se retiren del lugar, dar aviso inmediato a protección industrial si existen lesionados llama inmediatamente presionando botón rojo de su radio o a los números de emergencia. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa.              las sustancias químicas deben almacenarse de acuerdo a su clase de peligro y compatibilidad. se debe mantener la hds del proveedor en el lugar de almacenamiento y en terreno capítulo 4 &gt; gestión de medio ambiente &gt; gestión de sustancias peligrosas gestión de  sustancias peligrosas con respecto a la gestión de sustancias, nuestra compañía está enfocada durante este periodo a cumplir con la adecuación del ds43 “reglamento de almacenamiento de sustancias peligrosas”</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.6JJykASMJBn" slidebank="false" type="slide">              una vez que los delincuentes se retiren del lugar, dar aviso inmediato a protección industrial si existen lesionados llama inmediatamente presionando botón rojo de su radio o a los números de emergencia. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa.              existen normas legales, decretos y resoluciones que permiten guiar nuestra conducta hacia acciones preventivas. reglamenta el transporte de cargas peligrosas por calles y caminos identificación de sustancias peligrosas en el transporte reglamento sanitario sobre manejo de residuos peligrosos reglamento de almacenamiento de sustancias peligrosas hojas de datos de seguridad de productos químicos capítulo 4 &gt; gestión de medio ambiente &gt; gestión de sustancias peligrosas gestión de  sustancias peligrosas</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.5bpQ2mCo5kU" slidebank="false" type="slide">              una vez que los delincuentes se retiren del lugar, dar aviso inmediato a protección industrial si existen lesionados llama inmediatamente presionando botón rojo de su radio o a los números de emergencia. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa. entrega los detalles de lo ocurrido a protección industrial y evita comentar el evento con personas ajenas a la empresa.              para realizar seguimiento al comportamiento de variables ambientales y dar cumplimiento a los compromisos asociados a resoluciones de calificación ambiental, la compañía ejecuta campañas de monitoreos ambientales capítulo 4 &gt; gestión de medio ambiente &gt; monitoreo y reportabilidad monitoreo  y reportabilidad los eventos ambientales ocurridos en escondida, son reportados internamente mediante el sistema de reportabilidad de incidentes ems, y a la autoridad de acuerdo al procedimiento interno para estos casos. ante cualquier duda, contactar al asesor ambiental del área. luego de la ocurrencia de un evento, se toman las medidas de control inmediatas.</slidetext>
+      <slidetext slideid="5sCmU4gCu8u.6QlRUj6GGl3" slidebank="false" type="slide">      </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
